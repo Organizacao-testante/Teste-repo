@@ -3,7 +3,7 @@
     --color2:#333;
     --color3:#555;
     --color4:#3ae4b1;
-    --colorlinear:linear-gradient(purple,aqua)  
+    --colorlinear:linear-gradient(purple,aqua);  
     --fontfamily:"Cascadia Code",sans-serif;
 }
 *{
@@ -42,4 +42,19 @@ header nav ul li a{
 }
 header nav ul li a:hover{
     color:var(--color4);
+}
+.cor{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:var(--colorlinear);
+}
+#texto{
+    font-size:3rem;
+    text-align:center;
+    margin-top:100px;
+    text-transform:uppercase;
+    background:var(--colorlinear);
+    -webkit-text-fill-color:transparent;
+    background-clip:text
 }
